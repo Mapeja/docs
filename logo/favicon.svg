@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 464 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-76.7792,0)">
+        <g id="Favicon" transform="matrix(2.24459,0,0,2.24459,983.093,350.196)">
+            <rect x="-403.776" y="-156.018" width="206.352" height="206.352" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-403.776" y="-156.018" width="206.352" height="206.352"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.3319,0,0,1.34191,-434.195,-193.104)">
+                    <path d="M193.683,43.058L193.683,171.547C193.683,186.582 181.385,198.788 166.237,198.788L38.157,198.788C23.009,198.788 10.711,186.582 10.711,171.547L10.711,43.058C10.711,28.023 23.009,15.817 38.157,15.817L166.237,15.817C181.385,15.817 193.683,28.023 193.683,43.058Z" style="fill:rgb(36,51,50);"/>
+                </g>
+                <g transform="matrix(1.55386,0,0,0.876019,-505.219,-164.934)">
+                    <path d="M132.232,71.318L179.941,166.736L84.523,166.736L132.232,71.318Z" style="fill:none;stroke:rgb(94,167,162);stroke-width:12.72px;"/>
+                </g>
+                <g transform="matrix(0.878002,0,0,0.894063,-311.298,-144.498)">
+                    <path d="M13.153,17.532L13.153,187.164" style="fill:none;stroke:rgb(94,167,162);stroke-width:18.1px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

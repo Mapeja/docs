@@ -1,13 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Esker Documentation",
+  "description": "Esker Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#5EA7A2",
+    "light": "#FAFAFA",
+    "dark": "#0F1414"
   },
-  "favicon": "/Favicon.png",
+  "favicon": "logo/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -83,8 +84,7 @@
             "group": "Changelog & Roadmap",
             "pages": [
               "changelog/latest-features",
-              "changelog/upcoming-features",
-              "changelog/community-feedback"
+              "changelog/upcoming-features"
             ]
           },
           {
