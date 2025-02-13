@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Esker Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,71 +14,90 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Introduction",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction/what-is-esker",
+              "introduction/why-esker",
+              "introduction/getting-started"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Getting Started",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "getting-started/installing-esker",
+              "getting-started/creating-and-managing-projects",
+              "getting-started/writing-format",
+              "getting-started/saving-and-autosave"
             ]
           },
           {
-            "group": "Test",
+            "group": "Writing & Productivity Features",
             "pages": [
-              "Test/test"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "writing-productivity/editor",
+              "writing-productivity/writing-sprints",
+              "writing-productivity/word-count-and-statistics"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Organizing Your Writing",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "organizing/sidebar",
+              "organizing/drag-and-drop-reordering",
+              "organizing/outline-mode"
+            ]
+          },
+          {
+            "group": "Customization & Settings",
+            "pages": [
+              "customization/themes-and-appearance",
+              "customization/typing-sounds",
+              "customization/editor-width",
+              "customization/autosave-and-backups"
+            ]
+          },
+          {
+            "group": "Exporting & Saving Your Work",
+            "pages": [
+              "exporting/markdown-export",
+              "exporting/pdf-export"
+            ]
+          },
+          {
+            "group": "Troubleshooting & FAQs",
+            "pages": [
+              "troubleshooting/common-issues",
+              "troubleshooting/faqs",
+              "troubleshooting/reporting-bugs"
+            ]
+          },
+          {
+            "group": "Advanced Usage",
+            "pages": [
+              "advanced/structuring-a-novel",
+              "advanced/nonfiction-research",
+              "advanced/optimizing-writing-sprints",
+              "advanced/integrations"
+            ]
+          },
+          {
+            "group": "Changelog & Roadmap",
+            "pages": [
+              "changelog/latest-features",
+              "changelog/upcoming-features",
+              "changelog/community-feedback"
+            ]
+          },
+          {
+            "group": "Community & Support",
+            "pages": [
+              "community/join-discord",
+              "community/follow-development",
+              "community/contact-support"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -88,20 +107,16 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@esker.app"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/eskerapp",
+      "github": "https://github.com/eskerapp",
+      "linkedin": "https://linkedin.com/company/esker"
     }
   }
 }
+
