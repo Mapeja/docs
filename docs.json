@@ -52,7 +52,8 @@
             "pages": [
               "exporting/saving-projects",
               "exporting/autosave-backups",
-              "exporting/exporting-formats"
+              "exporting/exporting-formats",
+              "exporting/manuscript-compiler"
             ]
           },
           {
