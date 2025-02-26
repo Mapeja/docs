@@ -1,0 +1,178 @@
+---
+title: "Drag and Drop Reordering"
+description: "Learn how to reorganize your document by dragging and dropping elements in Esker."
+icon: "arrows-up-down"
+---
+
+# Drag and Drop Reordering
+
+Esker allows you to reorganize your document through an intuitive drag-and-drop interface. This guide explains how to use this feature to effortlessly restructure your writing.
+
+## Understanding Drag and Drop
+
+Drag and drop in Esker lets you:
+
+- Reorder chapters, scenes, and sections
+- Move notes and bookmarks to new locations
+- Reorganize your document structure visually
+- Maintain proper relationships between elements
+
+This feature is available in two primary locations:
+
+1. **In the sidebar**: For quick reorganization while writing
+2. **In Outline Mode**: For comprehensive document restructuring
+
+## Drag and Drop in the Sidebar
+
+The sidebar provides a quick way to reorganize your document:
+
+<Steps>
+  <Step title="Locate the Element">
+    Find the heading, note, or bookmark you want to move in the sidebar.
+  </Step>
+  <Step title="Click and Hold">
+    Click and hold on the element you want to move.
+    
+    ![Click and hold an element](https://placeholder.img/drag-start.png)
+  </Step>
+  <Step title="Drag to New Position">
+    While holding the mouse button down, drag the element to its new position.
+    
+    A blue line will appear indicating where the element will be placed.
+  </Step>
+  <Step title="Release to Place">
+    Release the mouse button to drop the element in its new position.
+    
+    The document will automatically update to reflect the new structure.
+  </Step>
+</Steps>
+
+<Note>
+  When you drag an element in the sidebar, all related content in your document moves along with it. For example, moving a heading will also move all text and sub-headings beneath it.
+</Note>
+
+## Drag and Drop in Outline Mode
+
+For more comprehensive reorganization, Outline Mode provides a powerful drag-and-drop interface:
+
+<Steps>
+  <Step title="Enter Outline Mode">
+    Click the menu button (☰) and select **Enable Outline Mode**, or press **F8**.
+  </Step>
+  <Step title="Locate the Drag Handle">
+    Hover over the left side of any element to reveal the drag handle (⋮⋮).
+    
+    ![Drag handle in Outline Mode](https://placeholder.img/outline-drag-handle.png)
+  </Step>
+  <Step title="Click and Drag">
+    Click and hold the drag handle, then drag the element to its new position.
+  </Step>
+  <Step title="Release to Place">
+    Release to drop the element in its new position.
+  </Step>
+</Steps>
+
+Outline Mode is particularly useful for major reorganization because it:
+- Shows only structural elements (headings, synopses, notes, bookmarks)
+- Hides body text to reduce clutter
+- Clearly indicates parent-child relationships
+- Provides visual feedback during drag operations
+
+## How Drag and Drop Works
+
+Understanding what happens when you move elements can help you reorganize more effectively:
+
+### Moving Headings
+
+When you drag a heading:
+
+- The heading itself moves to the new position
+- All content beneath the heading (text, synopses, notes) moves with it
+- Any child headings and their content also move with it
+
+For example, if you drag a Level 1 heading (#), all Level 2 (##) and Level 3 (###) headings nested under it will move along with all associated text.
+
+### Moving Synopses, Notes, and Bookmarks
+
+When you drag a synopsis, note, or bookmark:
+
+- Only the selected element moves
+- Related elements are not affected
+- The document is updated to reflect the new position
+
+### Nesting Rules
+
+Esker maintains proper structural relationships during drag and drop:
+
+- Level 1 headings (#) can be placed anywhere
+- Level 2 headings (##) are always nested under the preceding Level 1 heading
+- Level 3 headings (###) are always nested under the preceding Level 2 heading
+- Synopses (=) are always associated with the heading they follow
+
+## Best Practices for Reorganization
+
+To get the most out of drag and drop:
+
+### Plan Before Moving
+
+- Review your document structure in Outline Mode before making major changes
+- Consider how moving one section will affect others
+- Identify sections that might need to be split or combined
+
+### Use the Right Tool for the Job
+
+- Use sidebar drag and drop for minor adjustments while writing
+- Use Outline Mode for major restructuring
+- Consider using keyboard navigation for precise placement
+
+### Check Your Structure After Moving
+
+- After reorganizing, review your document to ensure:
+  - Headings are properly nested
+  - Synopses are still with their correct headings
+  - No content was accidentally moved or separated
+
+## Advanced Drag and Drop Techniques
+
+### Moving Multiple Levels at Once
+
+To move an entire section with all its subsections:
+
+1. Drag the highest-level heading (e.g., Level 1)
+2. All nested content will move together as a unit
+
+### Changing Heading Levels
+
+Currently, drag and drop doesn't change the level of a heading. To change a heading's level (e.g., from Level 2 to Level 1):
+
+1. Move the heading to the desired position using drag and drop
+2. Edit the heading text to change the number of # symbols
+
+### Moving Between Documents
+
+Drag and drop works within a single document. To move content between documents:
+
+1. Use copy (Ctrl+C/Cmd+C) and paste (Ctrl+V/Cmd+V)
+2. Then use drag and drop to organize within the destination document
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Can't drag elements | Ensure you're clicking the element itself (in sidebar) or the drag handle (in Outline Mode) |
+| Element doesn't drop where expected | Look for the blue indicator line showing the actual drop position |
+| Heading doesn't take children | Make sure you're dragging the parent heading, not just a child element |
+| Content appears out of order after drop | Check the heading levels to ensure proper nesting |
+
+## Next Steps
+
+Now that you understand how to reorganize your document with drag and drop, explore these related topics:
+
+<CardGroup cols={2}>
+  <Card title="Outline Mode" icon="list-check" href="/organization/outline-mode">
+    Get a bird's eye view of your document structure
+  </Card>
+  <Card title="Writing Format" icon="paragraph" href="/writing/writing-format">
+    Learn about Esker's formatting syntax
+  </Card>
+</CardGroup>

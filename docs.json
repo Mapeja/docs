@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "Esker Documentation",
-  "description": "Esker Documentation",
+  "description": "Official documentation for Esker writing app",
   "colors": {
     "primary": "#5EA7A2",
     "light": "#FAFAFA",
@@ -12,87 +12,62 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guide",
         "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "introduction/what-is-esker",
-              "introduction/why-esker",
-              "introduction/getting-started"
-            ]
-          },
           {
             "group": "Getting Started",
             "pages": [
-              "getting-started/installing-esker",
-              "getting-started/creating-and-managing-projects",
-              "getting-started/writing-format",
-              "getting-started/saving-and-autosave"
+              "getting-started/what-is-esker",
+              "getting-started/installing",
+              "getting-started/first-project"
             ]
           },
           {
-            "group": "Writing & Productivity Features",
+            "group": "Writing & Editing",
             "pages": [
-              "writing-productivity/editor",
-              "writing-productivity/writing-sprints",
-              "writing-productivity/word-count-and-statistics"
+              "writing/editor-basics",
+              "writing/writing-format",
+              "writing/keyboard-shortcuts"
             ]
           },
           {
-            "group": "Organizing Your Writing",
+            "group": "Document Organization",
             "pages": [
-              "organizing/sidebar",
-              "organizing/drag-and-drop-reordering",
-              "organizing/outline-mode"
+              "organization/sidebar",
+              "organization/outline-mode",
+              "organization/drag-and-drop"
             ]
           },
           {
-            "group": "Customization & Settings",
+            "group": "Productivity Tools",
             "pages": [
-              "customization/themes-and-appearance",
+              "productivity/writing-sprints",
+              "productivity/sessions",
+              "productivity/word-count",
+              "productivity/focus-modes"
+            ]
+          },
+          {
+            "group": "Exporting & Saving",
+            "pages": [
+              "exporting/saving-projects",
+              "exporting/autosave-backups",
+              "exporting/exporting-formats"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/themes",
               "customization/typing-sounds",
-              "customization/editor-width",
-              "customization/autosave-and-backups"
+              "customization/layout-options"
             ]
           },
           {
-            "group": "Exporting & Saving Your Work",
+            "group": "Help & Support",
             "pages": [
-              "exporting/markdown-export",
-              "exporting/pdf-export"
-            ]
-          },
-          {
-            "group": "Troubleshooting & FAQs",
-            "pages": [
-              "troubleshooting/common-issues",
-              "troubleshooting/faqs",
-              "troubleshooting/reporting-bugs"
-            ]
-          },
-          {
-            "group": "Advanced Usage",
-            "pages": [
-              "advanced/structuring-a-novel",
-              "advanced/nonfiction-research",
-              "advanced/optimizing-writing-sprints",
-              "advanced/integrations"
-            ]
-          },
-          {
-            "group": "Changelog & Roadmap",
-            "pages": [
-              "changelog/latest-features",
-              "changelog/upcoming-features"
-            ]
-          },
-          {
-            "group": "Community & Support",
-            "pages": [
-              "community/join-discord",
-              "community/follow-development",
-              "community/contact-support"
+              "help/common-issues",
+              "help/faqs"
             ]
           }
         ]
@@ -103,20 +78,10 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@esker.app"
-      }
-    ]
-  },
   "footer": {
     "socials": {
-      "x": "https://x.com/eskerapp",
       "github": "https://github.com/eskerapp",
-      "linkedin": "https://linkedin.com/company/esker"
+      "discord": "https://discord.gg/j3g9vmqB"
     }
   }
 }
-

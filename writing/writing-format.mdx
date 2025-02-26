@@ -1,0 +1,189 @@
+---
+title: "Writing Format"
+description: "Learn how to use Esker's formatting syntax to structure your documents effectively."
+icon: "paragraph"
+---
+
+# Writing Format
+
+Esker uses a simple, markdown-inspired formatting syntax that helps you structure your document as you write. This guide covers how to use each formatting element effectively.
+
+## Basic Formatting Elements
+
+Esker recognizes special characters at the beginning of lines to format different types of content:
+
+| Syntax | Function | Visual Style |
+|--------|----------|--------------|
+| `# Text` | Level 1 Heading (Chapter) | Large, bold font |
+| `## Text` | Level 2 Heading (Scene) | Medium, bold font |
+| `### Text` | Level 3 Heading (Sub-scene) | Small, bold font |
+| `= Text` | Synopsis | Italic, indented |
+| `@ Text` | Note | Standard text, different color |
+| `! Text` | Bookmark | Bold text, highlighted |
+| Regular Text | Body Text | Standard paragraph formatting |
+
+Each formatting element serves a specific purpose in organizing your document.
+
+## Headings: Structuring Your Document
+
+Headings help organize your document into a hierarchical structure:
+
+### Level 1 Headings (`#`)
+```
+# Chapter One
+```
+
+Level 1 headings are typically used for major divisions like chapters or parts of your document. They appear prominently in the sidebar for easy navigation.
+
+### Level 2 Headings (`##`)
+```
+## The Unexpected Visitor
+```
+
+Level 2 headings work well for scenes or major sections within chapters.
+
+### Level 3 Headings (`###`)
+```
+### Later That Evening
+```
+
+Level 3 headings are perfect for sub-scenes or smaller divisions within scenes.
+
+<Tip>
+  You can use any heading structure that works for your project. For example, a novelist might use Level 1 for parts, Level 2 for chapters, and Level 3 for scenes.
+</Tip>
+
+## Additional Content Elements
+
+Beyond basic structure, Esker supports several special content types:
+
+### Synopses (`=`)
+
+Synopses provide brief summaries of sections:
+
+```
+= In this chapter, the protagonist discovers the hidden letter and begins to question everything.
+```
+
+Synopses appear in the sidebar under their associated heading, making it easy to track your story's development at a glance.
+
+<Tip>
+  Place synopses immediately after the heading they describe. This creates a clear association between the heading and its summary.
+</Tip>
+
+### Notes (`@`)
+
+Notes are perfect for research, reminders, or commentary that isn't part of your main text:
+
+```
+@ Need to research Victorian table manners for this dinner scene.
+```
+
+Notes appear in a dedicated "Notes" section in the sidebar, making them easy to find later.
+
+### Bookmarks (`!`)
+
+Bookmarks help you mark important points in your document that you want to find quickly:
+
+```
+! Key turning point: protagonist makes the decision to leave
+```
+
+Bookmarks appear in their own section of the sidebar for quick reference.
+
+## Using `::` for Sidebar Display
+
+If you want a heading to display differently in the sidebar than in your document, use the `::` syntax:
+
+```
+# Chapter One: The Beginning of the End :: Chapter One
+```
+
+In this example, "Chapter One: The Beginning of the End" will appear in your document, but only "Chapter One" will show in the sidebar, keeping it clean and concise.
+
+## Body Text
+
+Any text that doesn't start with a formatting character is treated as regular body text:
+
+```
+This is a regular paragraph of body text. It doesn't require any special prefix.
+
+This is another paragraph.
+```
+
+Body text is displayed in your document's default font and size.
+
+## Empty Lines
+
+To create empty lines for visual separation, simply press Enter on an empty line:
+
+```
+This is a paragraph.
+
+[Empty line here]
+
+This is another paragraph with space between.
+```
+
+Empty lines will be preserved in your document.
+
+## Examples of Common Document Structures
+
+### Novel Structure Example
+```
+# Chapter One
+= The protagonist is introduced in their ordinary world.
+
+John stared out the window, watching the rain trace patterns down the glass.
+
+## The Phone Call
+= A mysterious call disrupts John's quiet evening.
+
+The shrill ring of the telephone broke the silence.
+
+### The Decision
+= John makes a choice that will change everything.
+
+"I'll do it," he said, his voice surprisingly steady.
+
+@ Research: Check if phones of this era would be described as "shrill" or if another term would be more period-appropriate.
+```
+
+### Research Document Example
+```
+# Literature Review
+= Summary of existing research on the topic.
+
+## Key Sources
+= The most important papers and books in the field.
+
+@ Remember to include the Thompson paper from 2018.
+
+## Gaps in Research
+= Areas where more study is needed.
+
+! Potential thesis statement here
+```
+
+## Advanced Formatting Tips
+
+- **Consecutive Headings**: You can place headings directly after one another if needed
+- **Multiple Synopses**: You can add multiple synopses to a single heading
+- **Organizing Notes**: Consider using a naming convention for notes (e.g., `@ Research:` or `@ TODO:`)
+- **Mixed Content**: You can freely mix different content types throughout your document
+
+## Next Steps
+
+Now that you understand Esker's formatting syntax, explore these related topics:
+
+<CardGroup cols={2}>
+  <Card title="Sidebar" icon="bars" href="/organization/sidebar">
+    Learn how your formatted content appears in the sidebar
+  </Card>
+  <Card title="Outline Mode" icon="list-check" href="/organization/outline-mode">
+    See how formatting affects Outline Mode viewing
+  </Card>
+  <Card title="Keyboard Shortcuts" icon="keyboard" href="/writing/keyboard-shortcuts">
+    Discover shortcuts for faster formatting
+  </Card>
+</CardGroup>
