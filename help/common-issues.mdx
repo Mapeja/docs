@@ -1,0 +1,332 @@
+---
+title: "Common Issues"
+description: "Solutions to frequently encountered problems in Esker."
+icon: "circle-question"
+---
+
+# Common Issues
+
+This guide addresses the most common issues you might encounter while using Esker and provides straightforward solutions to get you back to writing quickly.
+
+## Startup Issues
+
+### Esker Won't Launch
+
+If Esker fails to start:
+
+<Steps>
+  <Step title="Check System Requirements">
+    Verify your device meets the [minimum system requirements](/getting-started/installing#system-requirements).
+  </Step>
+  <Step title="Restart Your Device">
+    A simple restart can resolve many temporary system issues.
+  </Step>
+  <Step title="Reinstall Esker">
+    Uninstall Esker, download a fresh copy, and reinstall.
+  </Step>
+</Steps>
+
+### Error on Startup
+
+If you see an error message when launching Esker:
+
+1. Note the exact error message
+2. Check if your operating system needs updates
+3. Verify you have the latest version of Esker
+4. Try launching with administrator privileges (Windows) or from Applications (Mac)
+
+## File Management Issues
+
+### Can't Save Files
+
+If you're unable to save your work:
+
+<Steps>
+  <Step title="Check Permissions">
+    Ensure you have write permissions for the location where you're trying to save.
+  </Step>
+  <Step title="Try a Different Location">
+    Attempt to save to a different folder, such as your Documents folder.
+  </Step>
+  <Step title="Check Disk Space">
+    Verify you have sufficient free space on your drive.
+  </Step>
+  <Step title="Use Save As">
+    Try using "Save As" with a new filename instead of "Save".
+  </Step>
+</Steps>
+
+### Can't Open Files
+
+If you're unable to open an existing .esker file:
+
+1. Verify the file exists and hasn't been moved or deleted
+2. Check that the file isn't corrupted (try opening a different .esker file)
+3. Ensure the file isn't being used by another application
+4. Try using "Open Project" from the menu rather than double-clicking the file
+
+### File Appears Empty
+
+If your file opens but appears empty:
+
+<Steps>
+  <Step title="Check File Size">
+    Verify the file has a non-zero size in your file explorer.
+  </Step>
+  <Step title="Try Opening a Backup">
+    Look for automatic backups of your file in the Esker backup folder.
+  </Step>
+  <Step title="Open with Text Editor">
+    Try opening the .esker file with a plain text editor like Notepad to see if content is visible.
+  </Step>
+</Steps>
+
+<Warning>
+  If your file appears empty but has content when viewed in a text editor, do not save the empty version in Esker, as this could overwrite your content.
+</Warning>
+
+## Editor Issues
+
+### Text Formatting Not Working
+
+If formatting shortcuts or syntax aren't working as expected:
+
+<Steps>
+  <Step title="Check Syntax">
+    Ensure you're using the correct syntax (e.g., `#` for headings, `=` for synopses).
+  </Step>
+  <Step title="Position Check">
+    Make sure special characters are at the beginning of a line, not preceded by any spaces.
+  </Step>
+  <Step title="Restart Editor">
+    Try saving your work, closing Esker, and reopening it.
+  </Step>
+</Steps>
+
+### Cursor Jumping or Erratic Behavior
+
+If your cursor jumps to unexpected locations while typing:
+
+1. Check if you have conflicting keyboard shortcuts from other applications
+2. Disable any browser extensions if using the web version
+3. Make sure your input device (mouse/touchpad) is functioning properly
+4. Try turning off Typewriter Mode if it's enabled
+
+### Text Disappearing
+
+If text seems to disappear when typing:
+
+<Steps>
+  <Step title="Check Focus Mode">
+    If Focus Mode is enabled, text outside your current paragraph will appear dimmed.
+  </Step>
+  <Step title="Check Outline Mode">
+    If Outline Mode is enabled, body text is hidden. Press F8 to exit Outline Mode.
+  </Step>
+  <Step title="Check Selection">
+    You might be accidentally selecting and replacing text. Try clicking to place your cursor without dragging.
+  </Step>
+</Steps>
+
+## Performance Issues
+
+### Slow Performance with Large Documents
+
+If Esker becomes sluggish with large documents:
+
+<Steps>
+  <Step title="Split Your Project">
+    Consider dividing very large projects into multiple smaller files.
+  </Step>
+  <Step title="Close Other Applications">
+    Free up system resources by closing other memory-intensive programs.
+  </Step>
+  <Step title="Disable Features">
+    Try turning off features like Focus Mode or Typewriter Mode temporarily.
+  </Step>
+</Steps>
+
+### Application Freezes
+
+If Esker freezes or becomes unresponsive:
+
+1. Wait a moment to see if it recovers (especially if you have a large document)
+2. Try saving your work using Ctrl+S (Windows) or Cmd+S (Mac)
+3. If unresponsive, force close the application and restart
+4. Upon restarting, check for auto-recovered content
+
+<Tip>
+  Enable autosave in Options to minimize potential data loss if the application freezes.
+</Tip>
+
+## Feature-Specific Issues
+
+### Sidebar Not Updating
+
+If the sidebar doesn't reflect changes to your document structure:
+
+<Steps>
+  <Step title="Check Syntax">
+    Ensure your headings, synopses, and notes use the correct prefix syntax.
+  </Step>
+  <Step title="Manually Update">
+    Try adding or modifying a heading to trigger a sidebar update.
+  </Step>
+  <Step title="Restart Esker">
+    Save your work, close Esker, and reopen your project.
+  </Step>
+</Steps>
+
+### Focus Mode Problems
+
+If Focus Mode isn't working properly:
+
+1. Toggle Focus Mode off and on again (F10)
+2. Try clicking directly in a paragraph to ensure it receives focus
+3. If multiple paragraphs remain highlighted, save and restart Esker
+4. Check if Zero Distractions Mode is interfering (F12 to toggle)
+
+### Writing Sprint Issues
+
+If you encounter problems with writing sprints:
+
+<Steps>
+  <Step title="Check Timer">
+    Verify the timer is running by looking for the progress bar.
+  </Step>
+  <Step title="Word Count Recognition">
+    Make sure new words are being counted by typing a few words and checking the count.
+  </Step>
+  <Step title="Cancel and Restart">
+    If a sprint seems stuck, try canceling and starting a new sprint.
+  </Step>
+</Steps>
+
+### Export Problems
+
+If you're having trouble exporting your document:
+
+1. Try a different export format (TXT or MD are the most reliable)
+2. Ensure you have sufficient disk space for the exported file
+3. Check for special characters that might cause issues in exports
+4. For PDF exports, make sure required dependencies are properly installed
+
+## Account and Installation Issues
+
+### Beta Access Issues
+
+If you're having trouble accessing the Esker beta:
+
+<Steps>
+  <Step title="Check Email">
+    Verify you received the magic link email (check spam/junk folders).
+  </Step>
+  <Step title="Try Again">
+    Request another magic link if the previous one has expired.
+  </Step>
+  <Step title="Clear Browser Data">
+    Try clearing your browser cache and cookies if using the web version.
+  </Step>
+</Steps>
+
+### Installation Failures
+
+If Esker fails to install properly:
+
+1. Ensure you have administrator rights on your computer
+2. Temporarily disable antivirus software during installation
+3. Make sure your operating system is up to date
+4. Download a fresh copy of the installer and try again
+
+## Browser-Specific Issues (Web Version)
+
+### Content Not Saving
+
+If you're using the web version and content isn't saving:
+
+<Steps>
+  <Step title="Check Storage">
+    Ensure your browser allows local storage and that you haven't exceeded limits.
+  </Step>
+  <Step title="Export Frequently">
+    For the web version, export your work regularly as a backup.
+  </Step>
+  <Step title="Try Desktop Version">
+    Consider switching to the desktop version for more reliable file handling.
+  </Step>
+</Steps>
+
+### Browser Compatibility
+
+If you experience issues with the web version:
+
+1. Update your browser to the latest version
+2. Try a different browser (Chrome, Firefox, Edge, or Safari)
+3. Disable browser extensions that might interfere with the application
+4. Check if your browser has JavaScript enabled
+
+## Recovery Strategies
+
+### Recovering Lost Work
+
+If you've lost work due to a crash or other issue:
+
+<Steps>
+  <Step title="Check Autosaves">
+    Look for autosaved versions in the Esker backup folder.
+  </Step>
+  <Step title="Check Temp Files">
+    Search your system's temporary files folders for .esker files.
+  </Step>
+  <Step title="Use Text Recovery">
+    If you can open the file in a text editor, you may be able to extract content manually.
+  </Step>
+</Steps>
+
+### When All Else Fails
+
+For severe issues where other solutions don't work:
+
+1. Document the exact issue and steps to reproduce it
+2. Check the [Esker community forum](https://discourse.esker.app) for similar reports
+3. Report the issue through the feedback button in Esker
+4. For critical issues, email support directly at support@esker.app
+
+## Preventative Measures
+
+### Avoiding Common Pitfalls
+
+To prevent issues before they occur:
+
+1. **Save Frequently**: Use keyboard shortcut Ctrl+S (Windows) or Cmd+S (Mac) regularly
+2. **Enable Autosave**: Set up autosave in Options with a reasonable interval (3-5 minutes)
+3. **Create Backups**: Use "Save As" periodically to create milestone versions
+4. **Export Regularly**: Export your work in multiple formats as an additional backup
+5. **Update Regularly**: Keep Esker and your operating system up to date
+
+## Getting Additional Help
+
+If you can't find a solution to your issue:
+
+1. Check the [FAQs](/help/faqs) for answers to common questions
+2. Search the [Esker community forum](https://discourse.esker.app) for similar issues
+3. Join the [Esker Discord](https://discord.gg/j3g9vmqB) to connect with other users and developers
+4. Submit detailed feedback through the app's feedback button
+5. Contact support directly for urgent issues at support@esker.app
+
+<Note>
+  When reporting issues, always include your operating system, Esker version, and steps to reproduce the problem. Screenshots or screen recordings are extremely helpful.
+</Note>
+
+## Next Steps
+
+If you've resolved your issue, explore these resources to get the most out of Esker:
+
+<CardGroup cols={2}>
+  <Card title="FAQs" icon="circle-info" href="/help/faqs">
+    Find answers to common questions about Esker
+  </Card>
+  <Card title="Keyboard Shortcuts" icon="keyboard" href="/writing/keyboard-shortcuts">
+    Learn shortcuts to streamline your writing workflow
+  </Card>
+</CardGroup>

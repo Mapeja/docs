@@ -68,7 +68,15 @@
             "group": "Help & Support",
             "pages": [
               "help/common-issues",
-              "help/faqs"
+              "help/faqs",
+              "help/roadmap",
+              "help/changelog"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "community/community"
             ]
           }
         ]

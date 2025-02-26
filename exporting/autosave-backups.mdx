@@ -1,0 +1,210 @@
+---
+title: "Autosave & Backups"
+description: "Set up automatic saving and backup systems to protect your writing in Esker."
+icon: "clock-rotate-left"
+---
+
+# Autosave & Backups
+
+Losing your work due to crashes, power outages, or simple forgetfulness can be devastating. Esker provides robust autosave and backup features to protect your writing and give you peace of mind while you focus on creating.
+
+## Understanding Autosave
+
+Autosave automatically saves your work at regular intervals, helping to prevent data loss if:
+
+- Your computer crashes
+- The application closes unexpectedly
+- You forget to save manually
+- The power goes out
+
+When enabled, autosave runs silently in the background, requiring no action from you.
+
+## Setting Up Autosave
+
+Esker's autosave feature is configurable to suit your preferences:
+
+<Steps>
+  <Step title="Open Options">
+    Click the menu button (☰) and select **Options**.
+  </Step>
+  <Step title="Configure Autosave">
+    In the Options dialog, find the "Autosave" section.
+    
+    ![Autosave Settings](https://placeholder.img/autosave-settings.png)
+  </Step>
+  <Step title="Enable Autosave">
+    Check the "Autosave" box to enable the feature.
+  </Step>
+  <Step title="Set Interval">
+    Specify how often Esker should save your work automatically.
+    
+    The default is 5 minutes, but you can adjust this to be more or less frequent based on your needs.
+  </Step>
+  <Step title="Save Options">
+    Click "Save Options" to apply your settings.
+  </Step>
+</Steps>
+
+<Tip>
+  Finding the right autosave interval is a balance. Too frequent might interrupt your workflow, while too infrequent increases the risk of losing work. For most writers, 3-5 minutes is a good compromise.
+</Tip>
+
+## Autosave Notifications
+
+When autosave occurs, Esker shows a brief notification to let you know your work has been saved:
+
+![Autosave Notification](https://placeholder.img/autosave-notification.png)
+
+These notifications:
+- Appear briefly in the bottom right corner
+- Automatically disappear after a few seconds
+- Don't require any action from you
+- Provide peace of mind that your work is being protected
+
+If you find the notifications distracting, you can disable them in the Options dialog while keeping autosave enabled.
+
+## Backup on Close
+
+While autosave protects you during your writing session, Esker also offers a "Backup on Close" feature that automatically creates a backup copy when you close your project:
+
+<Steps>
+  <Step title="Enable Backup on Close">
+    In the Options dialog, navigate to the "Backups" section.
+    
+    Check the "Enable automatic backups when closing a project" option.
+  </Step>
+  <Step title="Save Options">
+    Click "Save Options" to activate the feature.
+  </Step>
+</Steps>
+
+When enabled, this feature:
+- Creates a backup copy of your project whenever you close it
+- Stores backups in a designated backup folder
+- Names backups with a timestamp for easy identification
+- Helps protect against accidental data corruption or loss
+
+<Note>
+  The "Backup on Close" feature is separate from regular saving. It creates a duplicate backup file, leaving your original file untouched.
+</Note>
+
+## Managing Backup Files
+
+Esker stores backup files in a specific location on your computer:
+
+### Finding Backup Files
+
+To locate your backup files:
+
+<Steps>
+  <Step title="Open File Explorer">
+    Open your operating system's file manager (File Explorer on Windows, Finder on Mac).
+  </Step>
+  <Step title="Navigate to Backup Location">
+    For Windows: `C:\Users\YourUsername\Documents\Esker\Backups`
+    
+    For Mac: `/Users/YourUsername/Documents/Esker/Backups`
+  </Step>
+</Steps>
+
+Backup files follow this naming convention:
+```
+[Original Filename]_backup_[Date]_[Time].esker
+```
+
+For example: `MyNovel_backup_2023-05-15_14-30-22.esker`
+
+### Recovering from Backups
+
+If you need to restore from a backup:
+
+<Steps>
+  <Step title="Locate the Backup">
+    Navigate to the backup folder and find the appropriate backup file.
+  </Step>
+  <Step title="Open with Esker">
+    Open Esker, click the menu button (☰), select "Open Project," and navigate to your backup file.
+  </Step>
+  <Step title="Save As">
+    Use "Save As" to save the recovered document with a new name to avoid overwriting any existing files.
+  </Step>
+</Steps>
+
+### Backup Cleanup
+
+Over time, you may accumulate many backup files. To manage these:
+
+1. Periodically review your backup folder
+2. Delete older backups that are no longer needed
+3. Consider archiving important milestone backups to an external storage location
+
+<Tip>
+  Keep at least the last 3-5 backups of any important project to ensure you have multiple recovery points if needed.
+</Tip>
+
+## Advanced Backup Strategies
+
+For writers working on critical projects, consider these advanced backup approaches:
+
+### Manual Version Backups
+
+Create deliberate version backups at significant milestones:
+
+1. Use "Save As" to create a copy with a descriptive name
+   (e.g., "Novel-Chapter5Complete.esker")
+2. Store these milestone versions in a separate folder
+3. Consider using version numbers in filenames (e.g., "Novel-v2.1.esker")
+
+### External Backup Systems
+
+Complement Esker's built-in features with external backup systems:
+
+- **Cloud Storage**: Save copies to services like Dropbox, Google Drive, or OneDrive
+- **Version Control**: For technically inclined writers, consider using Git for comprehensive version tracking
+- **Scheduled Backups**: Use your operating system's backup features to include your writing folders
+
+### Email Backups
+
+For critical work, email yourself copies periodically:
+
+1. Use "Save As" to create a backup copy
+2. Attach the file to an email to yourself
+3. Use a consistent subject line (e.g., "Novel Backup - May 15")
+
+This provides an offsite backup that's accessible from anywhere.
+
+## Recommended Backup Schedule
+
+For optimal protection, consider this backup schedule:
+
+| Type | Frequency | Method |
+|------|-----------|--------|
+| Working Save | Every few minutes | Enable autosave (3-5 minutes) |
+| Daily Backup | End of each day | Enable "Backup on Close" |
+| Milestone Backup | After completing sections | Manual "Save As" with version number |
+| Offsite Backup | Weekly | Copy to cloud storage or email |
+
+Following this schedule provides multiple layers of protection for your work.
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Autosave not working | Verify autosave is enabled in Options and check interval setting |
+| Backup files missing | Check the correct backup location for your operating system |
+| Too many backup files | Manually clean up older backups or adjust backup settings |
+| Lost work despite autosave | Check if changes occurred after the last autosave; try opening recent backups |
+| "Disk full" errors | Free up disk space or change backup location to a drive with more space |
+
+## Next Steps
+
+Now that you've secured your work with autosave and backups, explore other ways to preserve and share your writing:
+
+<CardGroup cols={2}>
+  <Card title="Exporting Formats" icon="file-export" href="/exporting/exporting-formats">
+    Learn how to export your work to various formats
+  </Card>
+  <Card title="Manuscript Compiler" icon="book" href="/exporting/manuscript-compiler">
+    Create professional manuscripts from your writing
+  </Card>
+</CardGroup>

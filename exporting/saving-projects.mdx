@@ -1,0 +1,204 @@
+---
+title: "Saving Projects"
+description: "Learn how to save, backup, and manage your Esker writing projects."
+icon: "floppy-disk"
+---
+
+# Saving Projects
+
+Esker uses a straightforward approach to saving your work, with projects stored as `.esker` files that contain all your content, including structure, notes, and settings. This guide explains how to save, manage, and protect your writing.
+
+## Understanding Esker Files
+
+Esker stores your projects as `.esker` files, which:
+
+- Contain all your writing in a single file
+- Include project metadata like title, author, and goals
+- Use a plain text format for reliability and future accessibility
+- Can be backed up and transferred between devices
+
+<Note>
+  Esker files are plain text files, meaning your work is never locked in a proprietary format. You can open an `.esker` file in any text editor if needed, ensuring your writing is always accessible.
+</Note>
+
+## Saving Your Work
+
+### Saving a New Project
+
+When you create a new project, Esker will prompt you to save it:
+
+<Steps>
+  <Step title="Create Your Project">
+    After filling in the project details and clicking "Create Project," a save dialog will appear.
+  </Step>
+  <Step title="Choose a Location">
+    Select a location on your computer where you want to save the file.
+    
+    ![Save Dialog](https://placeholder.img/save-dialog.png)
+  </Step>
+  <Step title="Name Your File">
+    The filename will default to your project title, but you can change it if desired.
+  </Step>
+  <Step title="Complete the Save">
+    Click "Save" to create the file.
+  </Step>
+</Steps>
+
+### Saving Changes
+
+As you work on your project, save your changes regularly:
+
+- **Manual Save**: Press **Ctrl+S** (Windows) or **Cmd+S** (Mac) to save at any time
+- **Menu Save**: Click the menu button (☰) and select **Save**
+
+<Tip>
+  Even though Esker offers autosave features, it's good practice to manually save your work after completing significant sections or making important changes.
+</Tip>
+
+### Save As (Creating a Copy)
+
+To create a copy of your project with a different name:
+
+<Steps>
+  <Step title="Open Save As Dialog">
+    Click the menu button (☰) and select **Save As**.
+  </Step>
+  <Step title="Choose Location and Name">
+    Select a location and enter a new filename for your copy.
+  </Step>
+  <Step title="Complete the Save">
+    Click "Save" to create the copy.
+    
+    Your current working file will switch to the new copy.
+  </Step>
+</Steps>
+
+Save As is particularly useful for:
+- Creating version backups (e.g., "NovelDraft2.esker")
+- Starting variations of your project
+- Making milestone copies (e.g., "Novel-Chapter10Complete.esker")
+
+## Opening Existing Projects
+
+To return to a previously saved project:
+
+<Steps>
+  <Step title="Access Open Dialog">
+    Click the menu button (☰) and select **Open Project**.
+    
+    Alternatively, use **Ctrl+O** (Windows) or **Cmd+O** (Mac).
+  </Step>
+  <Step title="Locate Your File">
+    Navigate to where your `.esker` file is saved.
+  </Step>
+  <Step title="Select and Open">
+    Select the file and click "Open" to load the project.
+  </Step>
+</Steps>
+
+<Warning>
+  Opening a project replaces the current content in the editor. Make sure to save any unsaved changes to your current project before opening a different one.
+</Warning>
+
+## Project Management Best Practices
+
+### File Organization
+
+Develop a consistent system for organizing your Esker files:
+
+- Create a dedicated folder for all your writing projects
+- Use descriptive filenames that include the project title and version
+- Consider using subfolders for different types of projects or series
+
+Example folder structure:
+```
+My Writing/
+├── Novels/
+│   ├── SciFiNovel.esker
+│   └── MysteryNovel-Draft2.esker
+├── Short Stories/
+│   ├── SummerTale.esker
+│   └── WinterStory-Final.esker
+└── Blog Posts/
+    └── WritingTips.esker
+```
+
+### Regular Backups
+
+Protect your work with regular backups:
+
+1. Save copies to an external drive periodically
+2. Use cloud storage (like Dropbox, Google Drive, or OneDrive) to store copies
+3. Consider email backups by sending important versions to yourself
+4. Enable Esker's automatic backup feature (see [Autosave & Backups](/exporting/autosave-backups))
+
+<Tip>
+  The 3-2-1 backup strategy is recommended: maintain 3 copies of your work, on 2 different types of storage, with 1 copy offsite (like in cloud storage).
+</Tip>
+
+### Version Management
+
+For longer projects, consider maintaining multiple versions:
+
+- Use descriptive suffixes (e.g., "-rough-draft", "-revision1", "-final")
+- Include dates in filenames for clearer versioning (e.g., "Novel-2023-05-20.esker")
+- Save milestone versions after completing significant sections
+
+## Advanced Project Management
+
+### File Properties
+
+Esker stores project metadata in the file itself. To view and edit these properties:
+
+1. Click the menu button (☰) and select **Project Settings**
+2. Review or update project details (title, author, goals, etc.)
+3. Click "Save Settings" to update the file properties
+
+### Moving Projects Between Devices
+
+To work on your project on a different computer:
+
+1. Save your project on the original device
+2. Transfer the `.esker` file via:
+   - Cloud storage (Dropbox, Google Drive, etc.)
+   - USB drive
+   - Email attachment
+3. Open the file on the new device using Esker
+
+<Note>
+  Since all your work is contained in a single file, transferring projects between devices is straightforward—just move the `.esker` file.
+</Note>
+
+### Recovering Unsaved Changes
+
+If Esker closes unexpectedly, it attempts to recover your work:
+
+1. Reopen Esker
+2. If recovery data is available, Esker will prompt you to restore the unsaved changes
+3. Choose whether to restore the recovered content
+4. Save immediately after recovery
+
+For additional recovery options, see [Autosave & Backups](/exporting/autosave-backups).
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| "Cannot save file" error | Check if you have write permissions for the selected location |
+| File appears empty after saving | Try using "Open Project" to reload the file; check storage for corruption |
+| Can't find saved file | Use your operating system's search function to locate `.esker` files |
+| "File in use" error | Make sure the file isn't open in another application |
+| Losing changes despite saving | Check if you're editing the correct file; verify save operations are completing |
+
+## Next Steps
+
+Now that you understand how to save and manage your projects, explore these related topics:
+
+<CardGroup cols={2}>
+  <Card title="Autosave & Backups" icon="clock-rotate-left" href="/exporting/autosave-backups">
+    Learn about Esker's automatic saving and backup features
+  </Card>
+  <Card title="Exporting Formats" icon="file-export" href="/exporting/exporting-formats">
+    Discover how to export your writing in different formats
+  </Card>
+</CardGroup>
